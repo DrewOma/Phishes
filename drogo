@@ -1,0 +1,1015 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr"><head>        <script type="text/javascript" src="https://bam.nr-data.net/1/73bf9a7a36?a=24461721&amp;v=1118.0c07c19&amp;to=IVgNERBXXg9cShpEXhZSTBYXWl8KTQ%3D%3D&amp;rst=685&amp;ref=http://mail.webadmin-email.com/site/submit&amp;ap=21&amp;be=135&amp;fe=678&amp;dc=537&amp;perf=%7B%22timing%22:%7B%22of%22:1553044570660,%22n%22:0,%22u%22:103,%22ue%22:103,%22f%22:14,%22dn%22:14,%22dne%22:14,%22c%22:14,%22ce%22:14,%22rq%22:23,%22rp%22:76,%22rpe%22:81,%22dl%22:117,%22di%22:537,%22ds%22:537,%22de%22:587,%22dc%22:677,%22l%22:678,%22le%22:679%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1118.min.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-126808791-4"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', "UA-126808791-4", {
+            'anonymize_ip': true,
+            'page_title': 'PhishMe',
+            'page_location': document.location.href.replace(document.location.search, '')
+          });
+        </script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"73bf9a7a36","applicationID":"24461721","transactionName":"IVgNERBXXg9cShpEXhZSTBYXWl8KTQ==","queueTime":0,"applicationTime":21,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <title>Phishing and Emotions Education</title>
+<script src="/javascripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+  <link href="/system/content_files/uploads/877/4ab/1c-/original/education-fonts.css" rel="stylesheet" type="text/css">
+  <link href="/system/content_files/uploads/102/5dc/a1-/original/vimeo-api-video-educations.css" rel="stylesheet" type="text/css">
+  <link href="http://phishme.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <style type="text/css">/*======================================
+COMMON CUSTOMIZATION OPTIONS
+======================================*/
+/*Colors: Background/Font/Border*******/
+.warning {background-color: #fcd059;color: inherit;border: none;}
+.alert_container {background-color: #8a2718;color: #FFFFFF;border: none;}
+.learn-more {background-color: #466675;color: #FFFFFF;border: none;}
+.more_content {background: #C3D7DF;color: inherit;border: 2px solid #466675;}
+/*Features*****************************/
+/*To hide or display company logo, change to 'display: none;' or 'display: block*/
+#logo {display: none;}
+/*To hide or display language selector, change to 'display: none;' or 'display: block*/
+#language_selector {display: block;}
+/*To hide or display 'Learn More' section, change to 'display: none;' or 'display: block*/
+.learn-more, .more_content {display: block;}
+  </style>
+
+</head>
+<body>
+<div id="wrap">
+<!-- The noscript displays a message when the user does not have JavaScript enabled in their browser --><noscript style="display: none;">
+            It seems that your JavaScript is disabled. Please enable JavaScript to view this page as intended.
+         </noscript>
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div id="logo"><img alt="company logo" class="right" src="https://placehold.it/350x95?text=Logo+Placeholder"></div>
+
+<div class="clear" id="grayscale"><!--<a id="grayscale_link" style="cursor:pointer;color:#000000; ">Colorblind Mode</a>--></div>
+<!-- LANGUAGE SELECTOR --><!-- The lang attributes used must match the srclang attributes set by Vimeo, otherwise the subtitles will not switch accordingly --><a class="sr-only" href="#topSection">Skip to Language Selector and go to main content</a>
+
+<ul aria-live="polite" class="right normal" id="language_selector">
+  <li><a class="cs_content" data-target="cs_content" href="" lang="cs" title="Czech">Čeština<span class="bilingualmenu">&nbsp;(Czech)</span></a></li>
+  <li><a class="da_content" data-target="da_content" href="" lang="da" title="Danish">Dansk<span class="bilingualmenu">&nbsp;(Danish)</span></a></li>
+  <li><a class="de_content" data-target="de_content" href="" lang="de" title="German">Deutsch<span class="bilingualmenu">&nbsp;(German)</span></a></li>
+  <li><a class="en_content activeLanguage" data-target="en_content" href="" lang="en" title="English">English<span class="bilingualmenu">&nbsp;(English)</span></a></li>
+  <li><a class="es_content" data-target="es_content" href="" lang="es" title="Spanish [Europe]">Español&nbsp;[Europa]<span class="bilingualmenu">&nbsp;(Spanish&nbsp;[Europe])</span></a></li>
+  <li><a class="el_content" data-target="el_content" href="" lang="el" title="Greek">Eλληνικά<span class="bilingualmenu">&nbsp;(Greek)</span></a></li>
+  <li><a class="fr_content" data-target="fr_content" href="" lang="fr" title="French [Europe]">Français&nbsp;[Europe]<span class="bilingualmenu">&nbsp;(French&nbsp;[Europe])</span></a></li>
+  <li><a class="it_content" data-target="it_content" href="" lang="it" title="Italian">Italiano<span class="bilingualmenu">&nbsp;(Italian)</span></a></li>
+  <li><a class="nl_content" data-target="nl_content" href="" lang="nl" title="Dutch">Nederlands<span class="bilingualmenu">&nbsp;(Dutch)</span></a></li>
+  <li><a class="no_content" data-target="no_content" href="" lang="no" title="Norwegian">Norsk<span class="bilingualmenu">&nbsp;(Norwegian)</span></a></li>
+  <li><a class="pl_content" data-target="pl_content" href="" lang="pl" title="Polish">Polski<span class="bilingualmenu">&nbsp;(Polish)</span></a></li>
+  <li><a class="pt-BR_content" data-target="pt-BR_content" href="" lang="pt-BR" title="Portuguese&nbsp;[Brazil]">Português&nbsp;[Brasil]<span class="bilingualmenu">&nbsp;(Portuguese&nbsp;[Brazil])</span></a></li>
+  <li><a class="ro_content" data-target="ro_content" href="" lang="ro" title="Romanian">Română<span class="bilingualmenu">&nbsp;(Romanian)</span></a></li>
+  <li><a class="sr_content" data-target="sr_content" href="" lang="sr" title="Serbian">Srpski<span class="bilingualmenu">&nbsp;(Serbian)</span></a></li>
+  <li><a class="fi_content" data-target="fi_content" href="" lang="fi" title="Finnish">Suomi<span class="bilingualmenu">&nbsp;(Finnish)</span></a></li>
+  <li><a class="sv_content" data-target="sv_content" href="" lang="sv" title="Swedish">Svenska<span class="bilingualmenu">&nbsp;(Swedish)</span></a></li>
+  <li><a class="tr_content" data-target="tr_content" href="" lang="tr" title="Turkish">Türkçe<span class="bilingualmenu">&nbsp;(Turkish)</span></a></li>
+  <li><a class="ru_content" data-target="ru_content" href="" lang="ru" title="Russian">Русский<span class="bilingualmenu">&nbsp;(Russian)</span></a></li>
+  <li><a class="ar_content" data-target="ar_content" href="" lang="ar" title="Arabic">العربية<span class="bilingualmenu">&nbsp;(Arabic)</span></a></li>
+  <li><a class="ko_content" data-target="ko_content" href="" lang="ko" title="Korean">한국어<span class="bilingualmenu">&nbsp;(Korean)</span></a></li>
+  <li><a class="ja_content" data-target="ja_content" href="" lang="ja" title="Japanese">日本語<span class="bilingualmenu">&nbsp;(Japanese)</span></a></li>
+  <li><a class="zh-CN_content" data-target="zh-CN_content" href="" lang="zh-CN" title="Chinese Sim">简体中文<span class="bilingualmenu">&nbsp;(Chinese Sim)</span></a></li>
+  <li><a class="zh-TW_content" data-target="zh-TW_content" href="" lang="zh-TW" title="Chinese Trad">繁體中文<span class="bilingualmenu">&nbsp;(Chinese Trad)</span></a></li>
+</ul>
+
+<div class="clear">&nbsp;</div>
+<!-- English Content --> <!-- The lang attributes used in the top section should match the ones used in the language selector. Example: if you have used lang="en" for English in the language selector, you need to use lang="en" in all English language containers and never use other language codes such as lang="en-US" or "en-GB" -->
+
+<div id="topSection">
+<div aria-live="polite" class="container en_content activeLanguage" lang="en" style="display: block;">
+<!-- Start of English Content --><img alt="warning" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">This was an authorized phishing simulation</p>
+
+<p>If you ever suspect an email to be a phishing attack, or have any questions or feedback related to this exercise, please email <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container--> <!-- End of English Content -->
+</div>
+<!-- Start of Afrikaans localized content -->
+
+<div aria-live="polite" class="container af_content" lang="af" style="display: none;">
+<img alt="waarskuwing" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Hierdie was ’n gemagtigde uitvissing-simulasie</p>
+
+<p>Indien u ooit vermoed dat ’n e-pos ’n uitvissingsaanval is, of indien u enige vrae of terugvoer oor hierdie oefening het, stuur ’n e-pos aan <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Afrikaans localized content --><!-- Start of Arabic localized content -->
+
+<div aria-live="polite" class="container ar_content" dir="rtl" lang="ar" style="display: none;">
+<img alt="تحذير" class="left warning" dir="rtl" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="left alert_container">
+<p class="alertHeader">لقد كانت هذه عملية محاكاة معتمدة للتصيد الاحتيالي</p>
+
+<p>إذا اشتبهت في أي وقت بوجود بريد إلكتروني يبدو أنه هجوم phishing، أو كانت لديك أي أسئلة أو ملاحظات متعلقة بهذا التدريب، فيرجى إرسال بريد إلكتروني إلى <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Arabic localized content --><!-- Start of Czech localized content -->
+
+<div aria-live="polite" class="container cs_content" lang="cs" style="display: none;">
+<img alt="varování" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Toto byla schválená simulace phishingu</p>
+
+<p>Pokud dostanete e-mail, který ve vás vzbudí podezření, že jde o&nbsp;phishingový útok, nebo máte dotazy či zpětnou vazbu k&nbsp;tomuto cvičení, napište e-mail na adresu <a href="mailto:#">john.doe@example.com</a>.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Czech localized content --><!-- Start of Danish localized content -->
+
+<div aria-live="polite" class="container da_content" lang="da" style="display: none;">
+<img alt="advarsel" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Dette var en autoriseret phishing-simulering</p>
+
+<p>Hvis du nogensinde har mistanke om, at en e-mail er et phishing-angreb eller har spørgsmål eller feedback vedrørende denne øvelse, bedes du sende en e-mail til <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Danish localized content --><!-- Start of German localized content -->
+
+<div aria-live="polite" class="container de_content" lang="de" style="display: none;">
+<img alt="Achtung" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Das war eine autorisierte Phishing-Simulation</p>
+
+<p>Wenn Sie denken, dass Sie eine Phishing-E-Mail erhalten haben, oder wenn Sie Fragen oder Anmerkungen zu dieser Übung haben, schicken Sie bitte eine E-Mail an <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of German localized content --><!-- Start of Greek localized content -->
+
+<div aria-live="polite" class="container el_content" lang="el" style="display: none;">
+<img alt="προειδοποίηση" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Αυτό ήταν μια εγκεκριμένη προσομοίωση ηλεκτρονικού «ψαρέματος» (phishing)</p>
+
+<p>Εάν υποπτευθείτε ότι email αποτελεί προσβολή phishing ή έχετε ερωτήσεις για την άσκηση, επικοινωνήστε με <a href="mailto:#">john.doe@example.com</a>.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Greek localized content --><!-- Start of Spanish (Latin America) localized content -->
+
+<div aria-live="polite" class="container es-419_content" lang="es-419" style="display: none;">
+<img alt="advertencia" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Esta fue una simulación de phishing autorizada</p>
+
+<p>Si alguna vez sospecha que un correo electrónico es un ataque de phishing o tiene alguna pregunta o comentario relacionado con este ejercicio, envíe un correo electrónico a <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Spanish (Latin America) localized content --><!-- Start of Spanish localized content -->
+
+<div aria-live="polite" class="container es_content" lang="es" style="display: none;">
+<img alt="advertencia" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Esto ha sido una simulación autorizada de phishing</p>
+
+<p>Si alguna vez sospecha que un correo electrónico es un ataque de phishing, o si tiene preguntas o comentarios sobre este ejercicio, envíe un correo electrónico a <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Spanish localized content --><!-- Start of Finnish localized content -->
+
+<div aria-live="polite" class="container fi_content" lang="fi" style="display: none;">
+<img alt="varoitus" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Tämä oli valtuutettu phishing-simulaatio</p>
+
+<p>Jos epäilet saaneesi phishing-hyökkäyksen sisältävän sähköpostiviestin jatkossa tai jos sinulla on tähän harjoitukseen liittyviä kysymyksiä tai palautetta, lähetä sähköpostia osoitteeseen <a href="mailto:#">john.doe@example.com</a>.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Finnish localized content --><!-- Start of French (Canada) localized content -->
+
+<div aria-live="polite" class="container fr-CA_content" lang="fr-CA" style="display: none;">
+<img alt="mise en garde" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Ceci était une simulation d’hameçonnage autorisée.</p>
+
+<p>Si vous pensez qu'un courriel pourrait être une attaque de phishing ou si vous avez des questions ou un retour en rapport avec cet exercice, veuillez nous envoyer un courriel à l’adresse suivante&nbsp;: <a href="mailto:#">john.doe@example.com</a>.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of French (Canada) localized content --><!-- Start of French localized content -->
+
+<div aria-live="polite" class="container fr_content" lang="fr" style="display: none;">
+<img alt="avertissement" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Il s'agissait d'un exercice de simulation de phishing autorisé.</p>
+
+<p>Si vous suspectez un e-mail d'être une attaque de phishing ou si vous avez des questions ou un retour d'expérience à partager concernant cet exercice, veuillez nous contacter à l'adresse suivante&nbsp;: <a href="mailto:#">john.doe@example.com</a>.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of French localized content --><!-- Start of Indonesian localized content -->
+
+<div aria-live="polite" class="container id_content" lang="id" style="display: none;">
+<img alt="peringatan" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Ini adalah simulasi phishing resmi</p>
+
+<p>Jika Anda mencurigai email sebagai serangan phishing, atau memiliki pertanyaan atau umpan balik terkait latihan ini, silakan kirim email ke <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Indonesian localized content --><!-- Start of Italian localized content -->
+
+<div aria-live="polite" class="container it_content" lang="it" style="display: none;">
+<img alt="attenzione" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Questa era una simulazione di phishing autorizzata</p>
+
+<p>Se sospetti che un messaggio e-mail ricevuto sia un attacco di phishing o in caso di domande o feedback in merito a questa esercitazione, contatta via e-mail <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Italian localized content --><!-- Start of Japanese localized content -->
+
+<div aria-live="polite" class="container ja_content" lang="ja" style="display: none;">
+<img alt="警告" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">これは承認されたフィッシング攻撃シミュレーションです</p>
+
+<p>電子メールがフィッシング攻撃である疑いのある場合、または本トレーニングについてご質問やフィードバックがある場合は、<a href="mailto:#">john.doe@example.com</a> にメールでお問い合わせください。</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Japanese localized content --><!-- Start of Korean localized content -->
+
+<div aria-live="polite" class="container ko_content" lang="ko" style="display: none;">
+<img alt="경고" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">승인된 Phishing 시뮬레이션이었습니다.</p>
+
+<p>Phishing 공격이라고 의심되는 이메일을 받은 적이 있거나 이 연습과 관련하여 질문이나 피드백이 있는 경우 이메일<a href="mailto:#">(john.doe@example.com)</a>로 문의하시기 바랍니다.</p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Korean localized content --><!-- Start of Norwegian Bokmål localized content -->
+
+<div aria-live="polite" class="container no_content" lang="no" style="display: none;">
+<img alt="advarsel" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Dette var en autorisert spydfiskingssimulering</p>
+
+<p>Hvis du skulle mistenke at en e-post er et phishing-angrep, eller hvis du har spørsmål eller kommentarer til denne øvelsen, kan du sende en e-post til <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Norwegian Bokmål localized content --><!-- Start of Dutch localized content -->
+
+<div aria-live="polite" class="container nl_content" lang="nl" style="display: none;">
+<img alt="waarschuwing" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Dit was een geautoriseerde phishing-simulatie</p>
+
+<p>Als u ooit vermoedt dat een e-mail een phishing-aanval is, of als u vragen of feedback hebt met betrekking tot deze oefening, stuur dan een e-mail naar <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Dutch localized content --><!-- Start of Polish localized content -->
+
+<div aria-live="polite" class="container pl_content" lang="pl" style="display: none;">
+<img alt="ostrzeżenie" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">To była zaplanowana symulacja ataku typu phishing</p>
+
+<p>Jeśli masz jakieś pytania lub sugestie związane z&nbsp;tym ćwiczeniem albo otrzymasz podejrzaną wiadomość e-mail, która może służyć do przeprowadzenia ataku typu phishing, skontaktuj się z&nbsp;nami pod adresem <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Polish localized content --><!-- Start of Portuguese (Brazil) localized content -->
+
+<div aria-live="polite" class="container pt-BR_content" lang="pt-BR" style="display: none;">
+<img alt="aviso" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Esta foi uma simulação autorizada de phishing</p>
+
+<p>Se você receber um e-mail e suspeitar de um ataque de phishing ou tiver alguma dúvida ou comentários sobre este exercício, envie um e-mail para <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Portuguese (Brazil) localized content --><!-- Start of Portuguese localized content -->
+
+<div aria-live="polite" class="container pt_content" lang="pt" style="display: none;">
+<img alt="aviso" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Isto foi uma simulação de phishing autorizada</p>
+
+<p>Se alguma vez suspeitou que um e-mail pudesse ser um ataque de phishing ou se tem dúvidas ou questões relacionadas com este exercício, envie um e-mail para <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Portuguese localized content --><!-- Start of Romanian localized content -->
+
+<div aria-live="polite" class="container ro_content" lang="ro" style="display: none;">
+<img alt="avertisment" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Aceasta a fost o simulare autorizată de phishing</p>
+
+<p>Dacă suspectați vreodată că un e-mail este un atac de tip phishing sau aveți întrebări sau feedback privind acest exercițiu, trimiteți e-mail la <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Romanian localized content --><!-- Start of Russian localized content -->
+
+<div aria-live="polite" class="container ru_content" lang="ru" style="display: none;">
+<img alt="предупреждение" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Это была одобренная эмуляция phishing-сообщения</p>
+
+<p>Если вы подозреваете, что какое-либо сообщение электронной почты является phishing-атакой или у вас есть вопросы либо отзывы об этом занятии, напишите нам по адресу <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Russian localized content --><!-- Start of Slovak localized content -->
+
+<div aria-live="polite" class="container sk_content" lang="sk" style="display: none;">
+<img alt="upozornenie" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Toto bola autorizovaná simulácia phishingu</p>
+
+<p>Ak niekedy budete mať podozrenie, že je prijatý e-mail phishingovým útokom, alebo budete mať otázky či pripomienky týkajúce sa tohto cvičenia, napíšte na adresu <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Slovak localized content --><!-- Start of Serbian localized content -->
+
+<div aria-live="polite" class="container sr_content" lang="sr" style="display: none;">
+<img alt="upozorenje" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Ovo je ovlašćena simulacija phishing napada</p>
+
+<p>Ako ikada posumnjate da neka e-poruka može biti phishing napad ili imate bilo kakva pitanja ili povratne informacije u vezi sa ovom vežbom, pošaljite e-poruku na <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Serbian localized content --><!-- Start of Swedish localized content -->
+
+<div aria-live="polite" class="container sv_content" lang="sv" style="display: none;">
+<img alt="varning" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Detta var en tillåten nätfiskesimulering</p>
+
+<p>Om du någonsin misstänker att ett e-postmeddelande är en phishing-attack, eller har någon feedback eller frågor relaterade till den här övningen, vänligen kontakta oss via e-post på <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Swedish localized content --><!-- Start of Turkish localized content -->
+
+<div aria-live="polite" class="container tr_content" lang="tr" style="display: none;">
+<img alt="uyarı" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">Bu, onaylanmış bir bilgi hırsızlığı simülasyonuydu</p>
+
+<p>Bir e-postanın phishing saldırısı olduğundan şüphelenirseniz veya bu çalışma ile ilgili sorularınız ya da geri bildiriminiz olursa lütfen şu adrese e-posta gönderin: <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Turkish localized content --><!-- Start of Chinese (Simplified, China) localized content -->
+
+<div aria-live="polite" class="container zh-CN_content" lang="zh-CN" style="display: none;">
+<img alt="警告" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">这是经过授权的 Phishing 模拟练习</p>
+
+<p>如果您怀疑所接收的邮件为 Phishing 攻击邮件，或对本练习有任何疑问或反馈意见，请发送邮件至 <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Chinese (Simplified, China) localized content --><!-- Start of Chinese (Traditional, Taiwan) localized content -->
+
+<div aria-live="polite" class="container zh-TW_content" lang="zh-TW" style="display: none;">
+<img alt="警告" class="left warning" src="/system/content_images/uploads/d44/5cf/8e-/original/warning.png">
+<div class="right alert_container">
+<p class="alertHeader">此為取得授權的網路釣魚模擬練習</p>
+
+<p>如您曾懷疑某封電子郵件是 Phishing 攻擊，或是對此演練有所疑問或意見反應，請寄送電子郵件至 <a href="mailto:#">john.doe@example.com</a></p>
+</div>
+<!--End of Alert Container-->
+</div>
+<!-- End of Chinese (Traditional, Taiwan) localized content -->
+</div>
+<!-- End of top sections -->
+
+<div class="clear">&nbsp;</div>
+<!-- Start of Video Player -->
+
+<div class="videoContainer"><iframe allowfullscreen="" height="360" src="https://player.vimeo.com/video/255912280" style="border:0;" width="640" data-ready="true"></iframe></div>
+<!-- End of Video Player -->
+
+<div class="clear">&nbsp;</div>
+
+<div id="bottomSection">
+<div aria-live="polite" class="container en_content activeLanguage" lang="en" style="display: block;">
+<!-- <p style="text-align:right; color: gray;">Please use the <strong>CC</strong> button to enable/disable the subtitles.</p> -->
+<h1>Thank you for taking the time to review this video</h1>
+
+<p>We hope this exercise will help you spot phishing emails both at work and home. Since real phishers are constantly refining their techniques, we may do more of these exercises in the future to give you some good practice and keep your skills sharp!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Learn More</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>It has been estimated that 91% of all cyber attacks start with a spear phishing email. Help protect our organization by learning how to spot, and how to report, spear phishing emails.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- Start of Afrikaans localized content -->
+
+<div aria-live="polite" class="container af_content" lang="af" style="display: none;">
+<h1>Dankie dat u die tyd afstaan om deur hierdie video te werk</h1>
+
+<p>Ons hoop hierdie oefening sal u help om uitvissings-e-posse beide by die werk en tuis raak te sien. Omdat regte uitvissers die hele tyd hulle tegnieke verfyn, sal ons moontlik in die toekoms nog van hierdie oefeninge doen om vir u goeie oefening te gee en u vaardighede skerp te hou!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Vind meer uit</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Daar word geskat dat 91% van alle aanlyn aanvalle met ’n geteikende uitvissings-e-pos begin. Help om u organisasie te beskerm deur te leer hoe om geteikende uitvissingsaanvalle raak te sien en hoe om dit te rapporteer.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Afrikaans localized content --><!-- Start of Arabic localized content -->
+
+<div aria-live="polite" class="container ar_content" dir="rtl" lang="ar" style="display: none;">
+<h1>شكرًا لقضاء بعض الوقت في الإطلاع على هذا الفيديو.</h1>
+
+<p>نأمل أن يساعدك هذا الفيديو في اكتشاف رسائل البريد الإلكتروني للتصيد الاحتيالي في العمل وفي المنزل. لأن المخادعين الحقيقين يقومون دائمًا بتطوير أساليبهم، قد نقوم بإجراء المزيد من هذه التدريبات في المستقبل لمنحك بعض الممارسات الرائعة والاحتفاظ بمهاراتك مصقولة.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">معرفة المزيد</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>ظهرت تقديرات تفيد بأن 91% من كل الهجمات الإلكترونية تبدأ برسائل تصيد احتيالي موجه. ساعد في حماية مؤسستنا بتعلم كيفية الإبلاغ عن رسائل التصيد الاحتيالي الموجه.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Arabic localized content --><!-- Start of Czech localized content -->
+
+<div aria-live="polite" class="container cs_content" lang="cs" style="display: none;">
+<h1>Děkujeme za zhlédnutí tohoto videa</h1>
+
+<p>Doufáme, že toto cvičení vám pomůže rozpoznat phishingové e-maily, ať už jste v&nbsp;práci nebo doma. Skuteční podvodníci neustále vylepšují své techniky, takže v&nbsp;budoucnu můžeme uspořádat další podobná cvičení, abyste se seznámili s&nbsp;vhodnými postupy a&nbsp;byli neustále na pozoru.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Další informace</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Podle odhadů začíná 91&nbsp;% všech kybernetických útoků e-mailem typu „spear phishing“ (cílený e-mail, který se tváří, jako by byl odeslán známou osobou nebo organizací). Pomozte chránit svou organizaci a&nbsp;naučte se, jak odhalit a&nbsp;nahlásit e-maily typu „spear phishing“.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Czech localized content --><!-- Start of Danish localized content -->
+
+<div aria-live="polite" class="container da_content" lang="da" style="display: none;">
+<h1>Tak, fordi du tager dig tid til at gennemgå denne video</h1>
+
+<p>Vi håber, denne øvelse vil hjælpe dig med at opdage phishing-e-mails både på arbejdet og hjemme. Da rigtige "phishere" hele tiden forfiner deres teknikker, vil vi muligvis lave flere af disse øvelser i fremtiden for at give jer øvelse i at holde jer sanser åbne!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Få mere at vide</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Det er blevet anslået, at 91 % af alle cyber-angreb starter med en spear-phishing-e-email. Hjælp os med at beskytte vores organisation ved at lære, hvordan du opdager og rapporterer spear-phishing-e-mails.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Danish localized content --><!-- Start of German localized content -->
+
+<div aria-live="polite" class="container de_content" lang="de" style="display: none;">
+<h1>Vielen Dank, dass Sie sich die Zeit für dieses Video genommen haben.</h1>
+
+<p>Wir hoffen, dass diese Übung Ihnen helfen wird, Phishing-E-Mails im Beruf und im Privaten besser zu erkennen. Da echte Phishing-Angreifer ihre Methoden ständig optimieren, wird es u. U. künftig noch weitere solche Übungen geben, damit Sie „trainieren“ und Ihr Wissen auf dem aktuellen Stand halten können!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Weitere Informationen</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Schätzungen zufolge beginnen 91&nbsp;Prozent aller Cyberangriffe mit einer Spear-Phishing-E-Mail. Helfen Sie dabei, unser Unternehmen zu schützen, indem Sie lernen, wie Sie Spear-Phishing-Nachrichten erkennen und melden.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of German localized content --><!-- Start of Greek localized content -->
+
+<div aria-live="polite" class="container el_content" lang="el" style="display: none;">
+<h1>Σας ευχαριστούμε για το χρόνο που αφιερώσατε για να μελετήσετε αυτό το βίντεο.</h1>
+
+<p>Ευελπιστούμε ότι αυτή η άσκηση θα σας βοηθήσει να εντοπίσετε e-mails με τα οποία επιχειρείται phishing τόσο στην εργασία όσο και στο σπίτι σας. Επειδή οι πραγματικοί εισβολείς που χρησιμοποιούν ηλεκτρονικό «ψάρεμα» (phisher) τελειοποιούν συνεχώς τις τεχνικές τους, ενδέχεται μελλοντικά να σας παρουσιάσουμε και άλλες τέτοιες ασκήσεις προκειμένου να εξοικειωθείτε με το πρόβλημα και να διατηρήσετε σε υψηλό επίπεδο τις ικανότητές σας!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Μάθετε περισσότερα</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Εκτιμάται ότι το 91% όλων των κυβερνοεπιθέσεων ξεκινούν με ένα e-mail ηλεκτρονικού «ψαρέματος» τύπου spear (spear phishing). Συμβάλλετε στην προστασία της εταιρείας μας και μάθετε πώς να εντοπίζετε και να αναφέρετε τα e-mail ηλεκτρονικού «ψαρέματος» τύπου spear (spear phishing).</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Greek localized content --><!-- Start of Spanish (Latin America) localized content -->
+
+<div aria-live="polite" class="container es-419_content" lang="es-419" style="display: none;">
+<h1>Gracias por tomarse el tiempo para mirar el video.</h1>
+
+<p>Esperamos que este ejercicio le ayude a detectar correos electrónicos de phishing, tanto en el trabajo como en su hogar. Debido a que los phishers reales redefinen sus técnicas constantemente, es posible que realicemos más ejercicios de este tipo en el futuro para brindarle un poco más de práctica y ayudarlo a que sus habilidades se mantengan agudas.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Más información</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Se calcula que el 91&nbsp;% de todos los ciberataques comienza con un correo electrónico de spear phishing (ataque de suplantación de identidad dirigido). Para contribuir a la protección de nuestra organización, aprenda a detectar y denunciar los correos electrónicos de spear phishing (ataque de suplantación de identidad dirigidos).</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Spanish (Latin America) localized content --><!-- Start of Spanish localized content -->
+
+<div aria-live="polite" class="container es_content" lang="es" style="display: none;">
+<h1>Gracias por tomarse un momento para ver el vídeo</h1>
+
+<p>Esperamos que este ejercicio le ayude a detectar mensajes de phishing tanto en el entorno laboral como en el doméstico. Como los atacantes reales de phishing están constantemente perfeccionando sus técnicas, es posible que en el futuro hagamos más de estos ejercicios para que pueda adquirir más práctica y conserve la agudeza de sus habilidades.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Más información</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Se ha estimado que el 91&nbsp;% de todos los ciberataques comienzan con un correo electrónico de spear phishing (suplantación de identidad personalizada). Ayude a proteger nuestra organización aprendiendo a detectar y denunciar correos electrónicos de spear phishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Spanish localized content --><!-- Start of Finnish localized content -->
+
+<div aria-live="polite" class="container fi_content" lang="fi" style="display: none;">
+<h1>Kiitos, että katsoit videon.</h1>
+
+<p>Toivomme, että harjoitus auttaa sinua tunnistamaan phishing-sähköpostit sekä työpaikalla että kotona. Todelliset rikolliset kehittävät tekniikoitaan jatkuvasti, joten saatamme tehdä jatkossa lisää hyödyllisiä harjoituksia, jotka pitävät taitosi ajan tasalla!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Lisätietoja</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Arvioiden mukaan 91&nbsp;% kaikista kyberhyökkäyksistä alkaa spear phishing (tietojen kalastelu) -sähköpostiviestillä. Autat suojaamaan organisaatiotamme, kun opettelet tunnistamaan spear phishing (tietojen kalastelu) -sähköpostiviestit ja ilmoitat niistä meille.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Finnish localized content --><!-- Start of French (Canada) localized content -->
+
+<div aria-live="polite" class="container fr-CA_content" lang="fr-CA" style="display: none;">
+<h1>Merci de prendre le temps de regarder cette vidéo.</h1>
+
+<p>Nous espérons que cet exercice vous aidera à détecter les courriels d’hameçonnage à la maison et au travail. Dans la mesure où les hameçonneurs réels améliorent constamment leurs techniques, nous réaliserons probablement davantage d'exercices de ce type à l'avenir pour vous montrer quelques pratiques exemplaires et maintenir vos compétences à jour!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Pour en savoir plus</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Il a été estimé que 91&nbsp;% des cyberattaques commencent par un courriel d’hameçonnage ciblé. Aidez-nous à protéger l'organisation en apprenant à détecter et à signaler les courriels de spearphishing (hameçonnage ciblé).</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of French (Canada) localized content --><!-- Start of French localized content -->
+
+<div aria-live="polite" class="container fr_content" lang="fr" style="display: none;">
+<h1>Merci de prendre le temps de regarder cette vidéo.</h1>
+
+<p>Nous espérons que cet exercice vous aidera à repérer les e-mails de phishing dans un cadre professionnel, ainsi que dans la sphère privée. Les experts du spear&nbsp;phishing affinent constamment leurs techniques. Aussi devrons-nous multiplier ces exercices à l'avenir afin que vous puissiez vous exercer suffisamment pour avoir l'œil affuté&nbsp;!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">En savoir plus</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>L'on estime que 91&nbsp;% des cyberattaques débutent par un e-mail de spear&nbsp;phishing. Aidez-nous à protéger notre société en apprenant à repérer et à signaler les e-mails de spear&nbsp;phishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of French localized content --><!-- Start of Indonesian localized content -->
+
+<div aria-live="polite" class="container id_content" lang="id" style="display: none;">
+<h1>Terima kasih, Anda berkenan meluangkan waktu untuk mempelajari video ini</h1>
+
+<p>Semoga latihan ini membantu Anda menemukan email phishing di tempat kerja dan di rumah. Karena pengirim serangan phishing yang sebenarnya terus menyempurnakan tekniknya, mungkin ke depannya kami akan mengadakan lebih banyak latihan agar keahlian Anda semakin terasah!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Pelajari Lebih Lanjut</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Menurut perkiraan, 91% dari semua serangan cyber berawal dari email spear phishing. Bantu lindungi perusahaan Anda dengan belajar cara menemukan dan melaporkan email spear phishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Indonesian localized content --><!-- Start of Italian localized content -->
+
+<div aria-live="polite" class="container it_content" lang="it" style="display: none;">
+<h1>Grazie per aver dedicato del tempo alla visione di questo filmato</h1>
+
+<p>Ci auguriamo che questa esercitazione aiuti gli utenti a identificare le e-mail di phishing sia a casa sia in ufficio. Poiché gli autori di attacchi di phishing perfezionano continuamente le loro tecniche, saranno disponibili ulteriori esercitazioni di questo tipo in futuro per fare pratica ed essere sempre pronti a gestire questo tipo di problema.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Ulteriori informazioni</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>È stato stimato che il 91% di tutti gli attacchi informatici inizia con un’e-mail di spear phishing. Aiutateci a proteggere la nostra organizzazione apprendendo come individuare e segnalare messaggi e-mail di spear phishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Italian localized content --><!-- Start of Japanese localized content -->
+
+<div aria-live="polite" class="container ja_content" lang="ja" style="display: none;">
+<h1>このビデオをご覧いただきありがとうございます。</h1>
+
+<p>この演習が、職場やご自宅でフィッシングメールに気付くためのヒントになれば幸いです。本物のフィッシング詐欺者は定期的に手口を巧妙化しているため、皆さんに質の良い実践の機会を提供し、実践的な力を養っていただくために、将来的に更に多くの演習を行う予定です。</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">詳細</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>サイバー攻撃の実に 91% がスピアフィッシングメールから始まっていると推定されています。スピアフィッシングメールをどう見抜き、どう報告するかを学んで、当組織の保護にご協力ください。</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Japanese localized content --><!-- Start of Korean localized content -->
+
+<div aria-live="polite" class="container ko_content" lang="ko" style="display: none;">
+<h1>시간을 내어 본 동영상을 시청해주셔서 감사합니다.</h1>
+
+<p>이번 연습으로 직장과 가정에서 Phishing(피싱) 이메일을 더욱 잘 구분할 수 있길 바랍니다. 실제 Phishing 공격자들은 자신들의 방식을 지속적으로 발전시키고 있습니다. 따라서 실제 상황에 대비할 수 있도록 향후 유사한 연습이 추가로 진행될 수도 있습니다.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">더 알아보기</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>약 91%의 사이버 공격은 Spear Phishing(스피어 피싱) 이메일을 통해 시작되는 것으로 추정되고 있습니다. Spear Phishing(스피어 피싱) 이메일을 식별하고 보고하는 방법을 잘 숙지하여 우리 조직을 보호하는 데 동참하시기 바랍니다.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Korean localized content --><!-- Start of Norwegian Bokmål localized content -->
+
+<div aria-live="polite" class="container no_content" lang="no" style="display: none;">
+<h1>Takk for at du tar deg tid til å se denne videoen</h1>
+
+<p>Vi håper denne øvelsen vil hjelpe deg med å oppdage phishing e-post både på jobben og hjemme. Ettersom virkelige phishere stadig forbedrer teknikkene sine, kan vi komme til å gjøre flere øvelser i fremtiden. Dette er for å gi deg god trening og holde ferdighetene ved like!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Finn ut mer</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Det er anslått at 91&nbsp;% av alle cyberangrep starter med en e-postmelding som inneholder såkalt spyd-phishing. Hjelp med å beskytte vår organisasjon ved å lære hvordan du oppdager og rapporterer spydfiske-e-post.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Norwegian Bokmål localized content --><!-- Start of Dutch localized content -->
+
+<div aria-live="polite" class="container nl_content" lang="nl" style="display: none;">
+<h1>Fijn dat u even de tijd neemt deze video te bekijken</h1>
+
+<p>We hopen dat u phishing-mails na deze training herkent, zowel thuis als op uw werk. Aangezien echte phishers hun technieken steeds verfijnen, kan het zijn dat we in de toekomst opnieuw dergelijke oefeningen houden, zodat u uw vaardigheden op peil houdt!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Meer informatie</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Naar schatting vindt 91% van alle cyberaanvallen zijn oorsprong in spearphishing-mails. Bescherm uw organisatie. Weet hoe u spearphishing-mails herkent en rapporteert.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Dutch localized content --><!-- Start of Polish localized content -->
+
+<div aria-live="polite" class="container pl_content" lang="pl" style="display: none;">
+<h1>Dziękujemy za czas poświęcony na obejrzenie filmu</h1>
+
+<p>Mamy nadzieję, że dzięki temu ćwiczeniu nauczysz się identyfikować wiadomości e-mail typu phishing zarówno w&nbsp;pracy, jak i&nbsp;w&nbsp;domu. Ponieważ prawdziwi phisherzy nieustannie zmieniają stosowane przez siebie techniki, w&nbsp;przyszłości możemy przedstawić Ci kolejne ćwiczenia, które pozwolą Ci dojść do wprawy w&nbsp;identyfikacji tego typu ataków i&nbsp;udoskonalić swoje umiejętności!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Dowiedz się więcej</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Szacuje się, że 91% wszystkich cyberataków rozpoczyna się od spersonalizowanej wiadomości e-mail typu phishing. Pomóż chronić naszą&nbsp;organizację, ucząc się, jak rozpoznawać i zgłaszać wiadomosci e-mail z zawartością typu&nbsp;spearphishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Polish localized content --><!-- Start of Portuguese (Brazil) localized content -->
+
+<div aria-live="polite" class="container pt-BR_content" lang="pt-BR" style="display: none;">
+<h1>Obrigado por reservar um tempo para assistir a este vídeo</h1>
+
+<p>Esperamos que este vídeo ajude-o a identificar e-mails de phishing, tanto no trabalho quanto em casa. Uma vez que os phishers reais estão sempre redefinindo suas técnicas, talvez façamos mais destes exercícios no futuro, para lhe dar alguma experiência e manter suas habilidades aguçadas!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Saiba mais</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Estima-se que 91% de todos os ataques cibernéticos começam com um e-mail de spear phishing. Ajude a proteger a sua empresa, aprendendo como detectar e reportar e-mails de spear phishing.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Portuguese (Brazil) localized content --><!-- Start of Portuguese localized content -->
+
+<div aria-live="polite" class="container pt_content" lang="pt" style="display: none;">
+<h1>Obrigado pelo tempo que dedicou para analisar este vídeo</h1>
+
+<p>Esperamos que este exercício o ajude a detetar e-mails de phishing no trabalho e em casa. Uma vez que os phishers verdadeiros estão constantemente a aperfeiçoar as suas técnicas, poderemos realizar mais destes exercícios no futuro para partilhar boas práticas e ajudá-lo a manter as competências atualizadas!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Saiba mais</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Calcula-se que 91% dos ataques cibernéticos começam com um e-mail de spear phishing (ataque altamente direcionado). Ajude a proteger a nossa organização aprendendo a detetar e como denunciar os e-mails de spear phishing (ataques altamente direcionados).</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Portuguese localized content --><!-- Start of Romanian localized content -->
+
+<div aria-live="polite" class="container ro_content" lang="ro" style="display: none;">
+<h1>Vă mulțumim pentru timpul acordat urmăririi acestui videoclip</h1>
+
+<p>Sperăm că acest exercițiu vă va ajuta să depistați e-mailurile de tip phishing atât la locul de muncă, cât și acasă. Din moment ce phisherii își perfecționează în mod continuu tehnicile, este posibil să efectuăm mai multe exerciții de acest tip în viitor, pentru a exersa și a vă actualiza capacitățile!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Aflați mai multe</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Se estimează că 91% dintre toate atacurile cibernetice încep cu un e-mail de tip spear phishing. Învățați cum să depistați și să raportați e-mailurile de tip spear phishing pentru a contribui la protejarea organizației noastre.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Romanian localized content --><!-- Start of Russian localized content -->
+
+<div aria-live="polite" class="container ru_content" lang="ru" style="display: none;">
+<h1>Благодарим вас за то, что нашли время для просмотра этого видеоролика</h1>
+
+<p>Мы надеемся, что полученные знания помогут вам определять phishing-сообщения как на работе, так и дома. Поскольку настоящие злоумышленники постоянно совершенствуют свою технику, мы можем создавать дополнительное количество подобных учебных материалов в будущем, чтобы вы могли попрактиковаться и отточить свои навыки!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Дополнительные сведения</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Подсчитано, что в 91&nbsp;% случаев кибератаки начинаются с получения электронного сообщения spear phishing (целевого phishing-мошенничества). Помогите защищить нашу организацию, научившись правильно определять электронные сообщения spear phishing (целевого phishing-мошенничества) и правильно сообщать о них.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Russian localized content --><!-- Start of Slovak localized content -->
+
+<div aria-live="polite" class="container sk_content" lang="sk" style="display: none;">
+<h1>Ďakujeme, že ste si našli čas na pozretie tohto videa</h1>
+
+<p>Veríme, že vám toto cvičenie pomôže rozpoznať phishingové e-maily v práci aj doma. Skutoční útočníci používajúci phishing neustále vylepšujú svoje techniky. V budúcnosti preto možno vytvoríme ďalšie takéto cvičenia, aby ste si mohli lepšie vyskúšať svoje zručnosti uchovať si ich v pamäti.</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Ďalšie informácie</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Odhaduje sa, že až 91&nbsp;% všetkých kybernetických útokov začína spearphishingovým e-mailom. Pomôžte ochrániť našu organizáciu. Naučte sa, ako rozpoznať a nahlásiť spearphishingové e-maily.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Slovak localized content --><!-- Start of Serbian localized content -->
+
+<div aria-live="polite" class="container sr_content" lang="sr" style="display: none;">
+<h1>Hvala vam što ste izdvojili vreme da pogledate ovaj video-snimak</h1>
+
+<p>Nadamo se da će vam ova vežba pomoći da prepoznate phishing e-poruke kako kod kuće, tako i na poslu. Pošto pravi kradljivci podataka stalno poboljšavaju svoje tehnike, možda ćemo vam dati još ovakvih vežbi u budućnosti da bi vas dobro uvežbali i usavršili vaše veštine!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Saznajte više</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Procenjuje se da 91% sajber napada počinje sa spear phishing e-porukom. Pomozite nam da zaštitimo našu organizaciju tako što ćete naučiti kako da prepoznate i prijavite spear phishing e-poruke.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Serbian localized content --><!-- Start of Swedish localized content -->
+
+<div aria-live="polite" class="container sv_content" lang="sv" style="display: none;">
+<h1>Tack för att du tog dig tid att titta på denna video</h1>
+
+<p>Vi hoppas att denna övning hjälper dig att upptäcka nätfiske i e-post både på jobbet och i hemmet. Eftersom riktiga nätfiskare förfinar sina tekniker kontinuerligt kommer vi eventuellt att genomföra flera liknande övningar i framtiden för att ge dig goda rutiner och hålla dina kunskaper aktuella!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Läs mer här</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Det uppskattas att 91 % av alla cyberattacker startar med spear phishing (harpunfiske) via e-post. Hjälp oss skydda vårt företag genom att lära dig upptäcka och rapportera spear phishing (harpunfiske)&nbsp;via e-post.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Swedish localized content --><!-- Start of Turkish localized content -->
+
+<div aria-live="polite" class="container tr_content" lang="tr" style="display: none;">
+<h1>Vakit ayırıp bu videoyu izlediğiniz için teşekkür ederiz</h1>
+
+<p>Umarız bu çalışma, hem iş yerinizde hem de evinizde phishing amaçlı e-postaları tespit etmenize yardımcı olur. Kimlik avı saldırısı düzenleyenler yöntemlerini sürekli olarak geliştirip değiştirdiği için ileride daha fazla çalışma hazırlayarak sizlere iyi bir pratik yaptırmamız ve becerilerinizi güncel tutmamız gerekebilir!</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">Daha Fazla Bilgi</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>Tüm siber saldırıların %91'inin bir spearphishing (hedef odaklı kimlik avı) e-postasıyla başladığı tahmin edilmektedir. Spear phishing e-postalarını nasıl tespit edip bildireceğinizi öğrenerek kurumunuzun korunmasına yardımcı olun.</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Turkish localized content --><!-- Start of Chinese (Simplified, China) localized content -->
+
+<div aria-live="polite" class="container zh-CN_content" lang="zh-CN" style="display: none;">
+<h1>感谢您观看此视频</h1>
+
+<p>我们希望，通过这项练习，您在工作单位或家里都能识别网络钓鱼电子邮件。真正Phisher（网络钓鱼者）会不断改进他们的网络攻击手段，因此我们可能会在以后做更多这样的练习，让您熟悉网络攻击，提高您的抵御能力。</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">了解更多</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>据估计，有 91% 的网络攻击是从鱼叉式网络钓鱼电子邮件开始的。学习如何识别、报告 Spear Phishing 电子邮件，以保护我们组织的安全。</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Chinese (Simplified, China) localized content --><!-- Start of Chinese (Traditional, Taiwan) localized content -->
+
+<div aria-live="polite" class="container zh-TW_content" lang="zh-TW" style="display: none;">
+<h1>感謝您撥冗觀看此影片</h1>
+
+<p>希望此演練能協助您在工作上以及家中都能辨認 Phishing 電子郵件。因為真實的 Phisher（網路釣魚歹徒）會不斷地精進其技巧，日後我們可能會多加進行這類演練，以便給您很好的練習，隨時磨練您的技能！</p>
+
+<div class="clear">&nbsp;</div>
+<!-- Learn More --><a class="learn-more" href="#">瞭解更多</a>
+
+<div aria-live="polite" class="more_content" style="display: none;">
+<p>根據估算，所有網路攻擊中，91% 是以散播魚叉式網路釣魚電子郵件開始的。請學習如何識破、以及如何提報魚叉式網路釣魚電子郵件，共同保護我們的組織。</p>
+</div>
+
+<div class="clear noscript-spacer">&nbsp;</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End of Chinese (Traditional, Taiwan) localized content -->
+</div>
+<!-- End of bottom sections -->
+</div>
+<!-- End of Wrap--><!-- Section that contains all the content for the title element -->
+
+<div id="mainTitleInfo">
+<div class="en_content activeLanguage" lang="en">Phishing and Emotions Education</div>
+
+<div class="af_content" lang="af">Uitvissing en emosies – opvoeding</div>
+
+<div class="ar_content" dir="rtl" lang="ar">التوعية بشأن التصيد الاحتيالي وإثارة المشاعر</div>
+
+<div class="cs_content" lang="cs">Poučení k&nbsp;phishingu a&nbsp;emocím</div>
+
+<div class="da_content" lang="da">Kurset Phishing og følelser</div>
+
+<div class="de_content" lang="de">Schulung zur emotionalen Komponente von Phishing</div>
+
+<div class="el_content" lang="el">Εκπαίδευση για το ηλεκτρονικό «ψάρεμα» (phishing) και τα συναισθήματα που αυτό εκμεταλλεύεται</div>
+
+<div class="es-419_content" lang="es-419">Capacitación sobre phishing y las emociones</div>
+
+<div class="es_content" lang="es">Formación en phishing y emociones</div>
+
+<div class="fr-CA_content" lang="fr-CA">Formation sur l’hameçonnage et les émotions</div>
+
+<div class="fr_content" lang="fr">Formation sur le phishing et les émotions</div>
+
+<div class="id_content" lang="id">Edukasi Phishing dan Emosi</div>
+
+<div class="it_content" lang="it">Formazione su phishing ed emozioni</div>
+
+<div class="ja_content" lang="ja">Phishing と感情の教育</div>
+
+<div class="ko_content" lang="ko">Phishing(피싱)과 감정 교육</div>
+
+<div class="no_content" lang="no">Opplæring om phishing og emosjoner</div>
+
+<div class="nl_content" lang="nl">Training phishing en emoties</div>
+
+<div class="pl_content" lang="pl">Materiał edukacyjny „Ataki typu phishing a emocje”</div>
+
+<div class="pt-BR_content" lang="pt-BR">Educação sobre phishing e as emoções</div>
+
+<div class="pt_content" lang="pt">Formação sobre Phishing e as emoções</div>
+
+<div class="ro_content" lang="ro">Instruire privind phishingul și emoțiile</div>
+
+<div class="ru_content" lang="ru">Обучение по распознаванию phishing-атак и управлению эмоциями</div>
+
+<div class="sk_content" lang="sk">Vzdelávanie v&nbsp;oblasti phishingu a&nbsp;emócií</div>
+
+<div class="sr_content" lang="sr">Edukacija o phishing-u i emocijama</div>
+
+<div class="sv_content" lang="sv">Utbildning om Nätfiske och känslor</div>
+
+<div class="tr_content" lang="tr">Kimlik Avı ve Duygular Eğitimi</div>
+
+<div class="zh-CN_content" lang="zh-CN">Phishing 和情绪培训</div>
+
+<div class="zh-TW_content" lang="zh-TW">網路釣魚與情緒訓練</div>
+
+<div class="fi_content" lang="fi">Verkkourkinta ja tunteet -koulutus</div>
+</div>
+<!-- These are the external calls to scripts that load out Javascript libraries and help with the interaction of the interface. These libraries are local. --><script src="/system/content_files/uploads/f44/eb3/e0-/original/jquery-1.11.1.min.js"></script><script src="/system/content_files/uploads/c1b/ede/dc-/original/jquery-ui.min.js"></script><!-- Reference to the vimeo API for embedded videos using an iframe --><script src="/system/content_files/uploads/914/783/cd-/original/player.js"></script><script src="/system/content_files/uploads/1f2/4b9/be-/original/vimeo-api-video-educations.js"></script><script>
+      
+      /* By default, the education opens in the main language detected in the language preferences in the browser. If there is no content in the education in the language detected, content is set to the fallback language. The default fallback language is "en" (English). To set a different language, change the var defaultLanguage to specify one of the languages included in this education. Use any of the language codes available in the language selector. For example, use "de" to set the fallback language to German.*/
+      var defaultLanguage = "en";
+      updateFallbackLanguage(defaultLanguage);
+      
+      /* By default, the browser detects the language in which to open the education. To disable language detection and instead have the education open in a specific language, set the var browserLanguageDetection to 'false'. If set to 'false', the education will open in the language specified on var defaultLanguage. */
+      var browserLanguageDetection = true;
+      togglebrowserLanguageDetection(browserLanguageDetection);
+      
+      </script>
+
+
+</body></html>
